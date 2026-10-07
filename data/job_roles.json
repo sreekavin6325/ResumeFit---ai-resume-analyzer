@@ -1,0 +1,18 @@
+[
+  {
+    "id": "aiml_engineer",
+    "title": "AI / ML Engineer",
+    "description_file": "aiml_engineer.txt"
+  },
+  {
+    "id": "python_developer",
+    "title": "Python Developer",
+    "description_file": "python_developer.txt"
+  },
+  {
+    "id": "data_scientist",
+    "title": "Data Scientist",
+    "description_file": "data_scientist.txt"
+  }
+]
+

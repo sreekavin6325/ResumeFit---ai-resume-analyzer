@@ -1,0 +1,6 @@
+Data Scientist
+
+Join our analytics team as a Data Scientist with 3+ years of experience. You will use Python and SQL to explore large datasets, build predictive models, design experiments, communicate insights, and create business-facing dashboards.
+
+Required skills: Python, SQL, pandas, NumPy, scikit-learn, Statistics, Machine Learning, Data Analysis, Data Visualization, and A/B Testing. Experience with Spark, Airflow, Snowflake, AWS, and stakeholder management is preferred. A master's degree in statistics, computer science, economics, or a quantitative discipline is preferred; a relevant bachelor's degree is acceptable.
+

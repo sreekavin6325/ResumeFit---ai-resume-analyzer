@@ -1,0 +1,6 @@
+Python Developer
+
+We are seeking a Python Developer with at least 2 years of professional software development experience. The role involves building maintainable backend services and REST APIs, integrating PostgreSQL and Redis, writing automated tests, and reviewing code.
+
+Required skills: Python, FastAPI or Django, SQL, PostgreSQL, Git, Linux, REST API, and Docker. Preferred skills include AWS, Kubernetes, CI/CD, pytest, asynchronous programming, and mentoring junior developers. A bachelor's degree or equivalent practical experience is preferred.
+

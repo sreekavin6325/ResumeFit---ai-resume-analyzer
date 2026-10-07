@@ -1,0 +1,36 @@
+{
+  "programming": [
+    "Python", "Java", "JavaScript", "TypeScript", "C++", "C#", "Go", "Rust", "R", "SQL", "Bash"
+  ],
+  "web": [
+    "React", "Next.js", "Vue.js", "Angular", "Node.js", "Express", "FastAPI", "Flask", "Django", "Streamlit", "HTML", "CSS", "REST API", "GraphQL"
+  ],
+  "data_ai": [
+    "Machine Learning", "Deep Learning", "Natural Language Processing", "Computer Vision", "Generative AI", "Large Language Models", "Prompt Engineering", "RAG", "TensorFlow", "PyTorch", "scikit-learn", "pandas", "NumPy", "OpenCV", "LangChain", "Hugging Face", "Data Analysis", "Data Visualization", "Statistics", "A/B Testing"
+  ],
+  "cloud_devops": [
+    "AWS", "Azure", "Google Cloud", "Docker", "Kubernetes", "Terraform", "Jenkins", "GitHub Actions", "CI/CD", "Linux", "Git", "MLOps", "Airflow", "Spark", "Kafka"
+  ],
+  "databases": [
+    "PostgreSQL", "MySQL", "SQLite", "MongoDB", "Redis", "Elasticsearch", "Snowflake", "BigQuery", "DynamoDB"
+  ],
+  "business": [
+    "Agile", "Scrum", "Project Management", "Product Management", "Stakeholder Management", "Leadership", "Communication", "Problem Solving", "Mentoring"
+  ],
+  "design": [
+    "Figma", "UI/UX", "Adobe Photoshop", "Adobe Illustrator"
+  ],
+  "aliases": {
+    "NLP": "Natural Language Processing",
+    "LLM": "Large Language Models",
+    "LLMs": "Large Language Models",
+    "GenAI": "Generative AI",
+    "GCP": "Google Cloud",
+    "K8s": "Kubernetes",
+    "SKLearn": "scikit-learn",
+    "Postgres": "PostgreSQL",
+    "JS": "JavaScript",
+    "TS": "TypeScript"
+  }
+}
+

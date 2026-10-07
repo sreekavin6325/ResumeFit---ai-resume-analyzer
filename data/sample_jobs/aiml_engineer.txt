@@ -1,0 +1,8 @@
+AI / ML Engineer
+
+We are looking for an AI/ML Engineer with 3+ years of experience building and deploying machine learning products. You will develop Python services, train models with PyTorch or TensorFlow, create NLP and generative AI solutions, and collaborate with product teams.
+
+Required skills: Python, Machine Learning, Deep Learning, Natural Language Processing, SQL, FastAPI, Docker, Git, and AWS. Experience with Large Language Models, RAG, vector search, model evaluation, and MLOps is strongly preferred. A bachelor's degree in computer science, engineering, data science, or a related field is required.
+
+You should be comfortable with CI/CD, testing, data pipelines, communication, and explaining technical trade-offs to stakeholders.
+

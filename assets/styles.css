@@ -1,0 +1,42 @@
+:root {
+  --navy: #0f2b46;
+  --teal: #08a8a0;
+  --violet: #6d5dfc;
+  --muted: #64748b;
+}
+
+.stApp {
+  background: radial-gradient(circle at 88% 8%, rgba(109, 93, 252, .08), transparent 22%),
+              radial-gradient(circle at 8% 28%, rgba(8, 168, 160, .07), transparent 24%),
+              #f8fafc;
+}
+
+.block-container { max-width: 1180px; padding-top: 2rem; }
+.app-title { color: var(--navy); font-size: 2.35rem; line-height: 1; margin: 0; letter-spacing: -.04em; }
+.app-tagline { color: var(--muted); margin: .55rem 0 0; font-size: 1.05rem; }
+.header-rule { height: 1px; background: linear-gradient(90deg, var(--teal), var(--violet), transparent); margin: 1rem 0 1.7rem; }
+
+.score-hero {
+  display: flex; align-items: center; gap: 1.25rem; padding: 1.4rem 1.6rem; margin-bottom: .8rem;
+  border: 1px solid rgba(15, 43, 70, .1); border-radius: 18px;
+  background: linear-gradient(120deg, rgba(8,168,160,.11), rgba(109,93,252,.11));
+  box-shadow: 0 12px 34px rgba(15, 43, 70, .08);
+}
+.score-number { color: var(--navy); font-size: 3.5rem; font-weight: 800; letter-spacing: -.08em; }
+.score-number span { font-size: 1.25rem; color: var(--teal); margin-left: .15rem; }
+.score-label { color: var(--navy); font-size: 1.25rem; font-weight: 700; }
+.score-copy { color: var(--muted); margin-top: .25rem; }
+
+.skill-tag, .empty-tag {
+  display: inline-block; padding: .38rem .66rem; margin: .18rem .14rem;
+  border-radius: 999px; font-size: .84rem; font-weight: 600;
+}
+.skill-tag.matched { color: #056b66; background: #d9f7f4; border: 1px solid #9ce8e2; }
+.skill-tag.missing { color: #9f2d31; background: #ffeaeb; border: 1px solid #ffc8ca; }
+.skill-tag.additional { color: #5143bd; background: #ece9ff; border: 1px solid #d4ceff; }
+.empty-tag { color: var(--muted); background: #eef2f7; }
+
+[data-testid="stFileUploaderDropzone"] { border-radius: 16px; border-color: rgba(8,168,160,.45); background: white; }
+[data-testid="stMetric"] { background: white; border: 1px solid #e2e8f0; padding: .8rem; border-radius: 12px; }
+.stButton > button { border-radius: 12px; font-weight: 700; }
+

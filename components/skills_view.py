@@ -6,6 +6,12 @@ import html
 
 import streamlit as st
 
+_GROUPS = (
+    ("matched", "Matched", "In your resume and the job"),
+    ("missing", "Missing", "Asked for, not found in your resume"),
+    ("additional", "Additional", "Extra strengths you bring"),
+)
+
 
 def _tags(items: list[str], kind: str) -> str:
     if not items:
@@ -14,14 +20,17 @@ def _tags(items: list[str], kind: str) -> str:
 
 
 def render_skills_view(skills: dict) -> None:
-    matched, missing, additional = st.columns(3)
-    with matched:
-        st.markdown(f"### Matched · {len(skills['matched'])}")
-        st.markdown(_tags(skills["matched"], "matched"), unsafe_allow_html=True)
-    with missing:
-        st.markdown(f"### Missing · {len(skills['missing'])}")
-        st.markdown(_tags(skills["missing"], "missing"), unsafe_allow_html=True)
-    with additional:
-        st.markdown(f"### Additional · {len(skills['additional'])}")
-        st.markdown(_tags(skills["additional"], "additional"), unsafe_allow_html=True)
-
+    for column, (kind, title, copy) in zip(st.columns(3), _GROUPS):
+        column.markdown(
+            f"""
+            <div class="skill-col {kind}">
+              <div class="skill-col-head">
+                <span class="skill-col-title">{title}</span>
+                <span class="skill-count">{len(skills[kind])}</span>
+              </div>
+              <p class="skill-col-copy">{copy}</p>
+              {_tags(skills[kind], kind)}
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
